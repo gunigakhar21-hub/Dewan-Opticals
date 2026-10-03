@@ -12,7 +12,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(fals
 
 const locBtn = document.getElementById('locate');
 const locMsg = document.getElementById('locate-msg');
-const DEST = encodeURIComponent('104, E Block, Bhai Randhir Singh Nagar, Ludhiana, Punjab, India');
+const DEST = 'Dewan+opticals%2C+104%2C+opp.+singh+sabha+gurudwara%2C+E-Block%2C+Bhai+Randhir+Singh+Nagar%2C+Ludhiana%2C+Punjab+141012';
 function openRoute(origin) {
   const o = origin ? '&origin=' + origin : '';
   window.open('https://www.google.com/maps/dir/?api=1' + o + '&destination=' + DEST + '&travelmode=driving', '_blank', 'noopener');
